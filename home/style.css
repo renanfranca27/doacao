@@ -1,0 +1,16 @@
+*{
+ margin: 0 ;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+    background: #d9d9d9;
+}
+nav{    
+    background: #f30404;
+    height: 2vw;
+    width: 100%;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
