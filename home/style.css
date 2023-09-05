@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
 *{
  margin: 0 ;
  padding: 0;
@@ -6,11 +7,55 @@
 body{
     background: #d9d9d9;
 }
+header{
+    background-image: url(src/banner.png);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
 nav{    
-    background: #f30404;
-    height: 2vw;
+    background: #443e3e;
+    height: 3vw;
     width: 100%;
-    padding: 1.5rem;
+    padding: 1.8rem;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+nav,h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.4rem;
+}
+.Home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.3rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.home-texto{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.9rem;
+    padding: 3.6rem;
+    color:rgb(182, 44, 44);
+}
+.home-texto-1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.7rem;
+    padding: 2rem;
+    color: rgb(173, 45, 45);
+}
+.bote{
+
+    padding: 4rem;
+}
+#botao{
+    border-radius: 10px;
+    width: 100px;
+    height: 60px;
+    border-style: none;
 }
