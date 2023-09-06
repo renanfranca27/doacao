@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,800;1,600&display=swap');
 *{
  margin: 0 ;
  padding: 0;
@@ -23,6 +24,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: azure;
 }
 nav,h1{
     font-family: 'Open Sans', sans-serif;
@@ -33,7 +35,7 @@ nav,h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1.3rem;
+    padding: 3.3rem;
     flex-direction: column;
     flex-wrap: wrap;
 }
@@ -58,4 +60,58 @@ nav,h1{
     width: 100px;
     height: 60px;
     border-style: none;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.container{
+    padding: 2rem;
+    gap: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.imags,img{
+    border-radius: 10px;
+}
+.conteudo{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(173, 45, 45);
+}
+.conteudo,p{
+    font-size: 1.4rem;
+}
+.botao-1,input{
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-style: none;
+    font-size: 0.8em;
+    background:#443e3e;    
+    color: white;
+}
+.mapa,iframe{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+   height: 90vh;
+   width: 200vh;
+}
+footer{
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    background: #443e3e;
 }
