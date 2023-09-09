@@ -34,21 +34,21 @@ nav{
     gap: 2rem;
     align-items: center;
     flex-direction: column;
-    flex-wrap: wrap;    
-    border: solid 1px blue;
+    flex-wrap: wrap;
 }
 .home-texto{
     font-family: 'Open Sans', sans-serif;
     font-size: 2rem;
     color:rgb(182, 44, 44);
-    border: solid 1px blue;
 }
 .home-texto-1{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.7rem;
-    padding: 2rem;
-    color: rgb(173, 45, 45);
-    border: solid 1px blue;
+    width: 70vw;
+    height: 20vh;
+    font-size: 2rem !important;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgb(182, 44, 44);
 }
 .bote{
 
@@ -74,14 +74,12 @@ main{
     gap: 3rem;
     display: flex;
     flex-wrap: wrap;
-    border: solid 1px red;
     flex-wrap: wrap;
 }
 .imags,img{
     width:410px;
     height: 380px;
     border-radius: 10px;
-    border: solid 1px red;
 }
 
 .conteudo{
@@ -91,7 +89,6 @@ main{
     gap: 1.4rem;
     font-family: 'Open Sans', sans-serif;
     color: rgb(173, 45, 45);
-    border: solid 1px rgb(0, 4, 255);
     height: 470px;
 }
 .conteudo,p{
@@ -137,18 +134,24 @@ footer{
         display: flex;
         align-items: center;
         text-align: center;
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         color:rgb(182, 44, 44);
         border: solid 1px blue;
+    }
+    .home-texto-1{
+        width: 100%;
+        height: 40vh;
+        font-size:2em ;
+        font-weight: 400;
     }
     .conteudo,p{
         display: flex;
         text-align: center;
-        font-size: 1.7rem;
+        font-size: 1.8rem;
     }
     .imags,img{
-        width:340px;
-        height: 200px;
+        width:300px;
+        height: 250px;
         border-radius: 20px;
     }
     .conteudo{
